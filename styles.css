@@ -1,0 +1,107 @@
+body{
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+
+.hrr{
+  width: 92%;
+  margin: 20px auto 25px;
+  color: hsl(215, 51%, 70%);
+  border-width: 0.5px;
+}
+.main{
+  background-color: hsl(216, 50%, 16%);
+  width: 375px;
+  height: 600px;
+  margin: 100px auto 100px;
+  border-radius: 10px;
+  position: relative;
+
+}
+.img_main:hover{
+  opacity: 0.5;}
+.img_main:hover .icon1 {
+  visibility: visible;}
+
+
+.icon1 {
+position: absolute;
+margin: 162px 0px 0 163px;
+visibility: hidden;
+
+}
+
+.img {
+  border-radius: 6px;
+  width: 92%;
+  margin: 15px 15px;
+}
+
+
+.main_1 {
+    position: absolute;
+margin-bottom: 0;
+}
+.img_1{
+  width: 10%;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+position: relative;
+  margin-bottom: 20px;
+}
+.p1{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 600;
+  color:hsl(0, 0%, 100%);
+  font-size: 18px;
+  display: inline;
+}
+.p1:hover
+{
+  color:hsl(178, 100%, 50%);
+
+}
+.p2 {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 400;
+  color:hsl(215, 51%, 70%);
+  font-size: 18px;
+}
+.p3 {
+display: inline;
+  margin-right: 15px;
+  font-weight: 400;
+
+
+  font-size: 18px;
+
+}
+.p4{
+
+  font-weight: 300;
+
+  padding-top: 10px;
+
+}
+.sp1{
+margin-left: 15px;
+color: hsl(178, 100%, 50%);
+}
+.sp2{
+  margin-left: 130px;
+
+color:hsl(215, 51%, 70%);
+}
+.sp3{
+color:hsl(215, 51%, 70%);
+padding-right: 5px;
+}
+.sp4{
+color:  hsl(0, 0%, 100%);
+}
+.sp4:hover{
+  color: hsl(178, 100%, 50%);
+}
